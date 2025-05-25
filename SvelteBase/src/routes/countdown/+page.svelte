@@ -37,9 +37,9 @@
     .background {
         margin: 0;
         padding: 0;
-        height: 100%;
+        height: 100vh;
         width: 100%;
-        background: url("/background.png");
+        background: transparent;
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center;
@@ -48,13 +48,15 @@
         left: 0px;
         overflow: hidden;
         z-index: -100000;
+        display: flex;
+        align-items: center;
+        justify-content: center;
 	}
 
     .Countdown {
         font-size: 10rem;
         color: white;
         font-family: Rubik, sans-serif;
-        text-align: center;     
-        margin-top: 10%;
+        text-align: center;
     }
 </style>
